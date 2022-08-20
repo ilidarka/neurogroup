@@ -1,0 +1,164 @@
+body
+	font-family: 'Inter'
+	font-size: 16px
+	background: #ECF2F0
+// Тайтлы
+.title
+	h2
+		color: #00231B
+		font-weight: 700
+		+font-size(33, 23)
+// секции
+section
+	+padding-bottom(120, 75)
+// li:before
+li
+	display: flex
+	align-items: flex-start
+	&:before
+		content: ''
+		min-width: 7px
+		min-height: 7px
+		background: #00D9A4
+		+margin-right(10,5)
+		display: inline-block
+		border-radius: 60px
+		margin-top: 5px
+///// Кнопки
+.btn
+	a, button
+		padding: 0
+		background: #005944
+		border-radius: 5px
+		+padding-top(20, 15)
+		+padding-bottom(20, 15)
+		+padding-right(50,21)
+		+padding-left(50,21)
+		+font-size(16,15)
+		color: #fff
+		box-shadow: 0 10px 20px 0 rgba(25, 89, 74, .15)
+///// more-btn
+.more-btn
+	text-align: center
+	+margin-top(12, 10)
+	a
+		color: #005944
+		+font-size(16, 15)
+		font-weight: 700
+
+
+
+
+
+
+
+
+///// Сбросс инпутов
+input::-webkit-input-placeholder
+	color: #000
+input::-moz-placeholder
+	color: #000
+input:-moz-placeholder
+	color: #000
+input:-ms-input-placeholder
+	color: #000
+
+
+
+
+
+
+
+
+
+///// slick slider
+// стрелки
+.my_slick-arrows
+	display: flex
+	justify-content: space-between
+	.slick-arrow
+		width: 30px
+		height: 30px
+		border: 1px solid #8F42E5
+		border-radius: 50px
+		display: block
+		line-height: 35px
+		text-align: center
+		border-radius: 50px
+	.slick-prev
+		display: block
+	.slick-next
+		display: block
+// точки
+.my_slick-dots
+	.slick-dots
+		display: flex
+		justify-content: space-between
+		max-width: 100px
+		margin: 0 auto
+		li
+			button
+				width: 20px
+				height: 20px
+				background: mediumpurple
+				display: inline-block
+				border-radius: 10px
+				font-size: 0
+		.slick-active
+			button
+				background: lightgreen
+
+
+
+
+
+
+
+
+
+
+
+
+///// Инпуты
+.input
+	input
+		width: 100%
+	textarea
+		width: 100%	
+
+
+
+
+
+
+
+
+
+
+
+///// Чекбокс
+input
+  &[type=checkbox]
+    + label
+      display: flex
+      align-items: center
+      cursor: pointer
+      &:before
+        content: ""
+        border: 1px solid #8A8A8A
+        border-radius: 5px
+        display: inline-block
+        min-width: 25px
+        min-height: 25px
+        padding-left: 0.2em
+        padding-bottom: 0.3em
+        margin-right: 0.2em
+        vertical-align: bottom
+        color: transparent
+        transition: .2s
+        margin-right: 15px
+    display: none
+    &:checked + label:before
+      background: url(../img/checkbox-checkmark.png) no-repeat center center
+      border-color: #8A8A8A
+      color: #fff
