@@ -1,0 +1,14 @@
+.gain-box {
+
+}
+.gain-box li {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+.gain-box span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
