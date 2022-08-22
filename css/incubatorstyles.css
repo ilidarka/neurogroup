@@ -1,0 +1,50 @@
+.custom .gain-wrapper, .customSecond .gain-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.custom .images {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.custom .gain-left-right-container, .customSecond .gain-left-right-container {
+    display: flex;
+}
+.custom .gain-right {
+    max-width: unset;
+    width: 50%;
+}
+.custom .gain-left {
+    padding-left: 20px;
+    width: 50%;
+}
+.custom .gain-right .gain-box--left {
+    max-width: unset;
+}
+.custom .gain-box--yuda, .customSecond .gain-box--yuda {
+    margin-bottom: 10px;
+}
+.access .access-item {
+    padding: 0 0;
+}
+.customSecond .gain-left-right-container {
+    flex-direction: row-reverse;
+}
+ .customSecond .gain-right {
+    max-width: unset;
+    width: 70%;
+}
+.customSecond .gain-left {
+    widows: 30%;
+}
+.second .access__box {
+    flex-wrap: wrap;
+}
+.second .access__box .access__item {
+    padding: 0 0;
+    margin-top: 50px;
+    width: 30%;
+    height: fit-content;
+}
