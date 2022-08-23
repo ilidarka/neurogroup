@@ -48,3 +48,119 @@
     width: 30%;
     height: fit-content;
 }
+.modelsButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@media (max-width: 1301px) {
+    .second .access__box {
+        flex-wrap: wrap;
+    }
+    .second .access__item-img img {
+        max-width: unset;
+    }
+}
+@media (max-width: 991px) {
+    .custom .gain-wrapper {
+        align-items: center;
+    }
+    .custom .gain-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: unset;
+        width: 100%;
+    }
+    .custom .gain-left .title h2 {
+        text-align: center;
+    }
+    .custom .gain-title, .customSecond .gain-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom .gain-left-right-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom .gain-box--yuda {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .custom .gain-right {
+        width: 100%;
+    }
+    .access .access__box {
+        justify-content: space-between;
+    }
+    .access .access__item-img img {
+        max-width: unset;
+        width: 68%;
+    }
+    .second .access__item-img img {
+        width: 100%;
+    }
+}
+@media (max-width: 781px) {
+    .customSectionStyle .modelsButtons {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .customSectionStyle .modelsButtons .citu-btn .popup-link {
+        text-align: center;
+        width: 150px;
+    }
+    .customSectionStyle .citu-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .customSectionStyle .gain-section {
+        display: flex;
+        align-items: center;
+    }
+    .customSectionStyle .gain-wrapper, .customSecond .gain-wrapper {
+        align-items: center;
+    }
+    .custom .gain-left {
+        padding-left: 0;
+    }
+    .custom .images {
+        width: 100%;
+    }
+    .access .access__item-img img {
+        max-width: unset;
+        width: 110%;
+    }
+    .customSecond .gain-left-right-container {
+        flex-direction: column;
+    }
+    .customSecond .gain-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 575px) {
+    .custom .container {
+        max-width: unset;
+        padding: 0 40px;
+    }
+    .custom .images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .second .access__box .access__item {
+        width: 60%;
+    }
+    .second .access__item img {
+        width: 100%;
+    }
+}
+@media (max-width: 360px) {
+    .customSectionStyle .container {
+        max-width: unset;
+    }
+}
