@@ -73,12 +73,13 @@
     width: 80%;
 }
 @media (max-width: 1300px) {
-    .reanimationAccessSecond .access__item-img img {
+    .reanimationAccessSecond .access__item-img img, .reanimationAccessThird .access__item-img img {
+        max-width: unset;
         width: 100%;
     }
 }
 @media (max-width: 991px) {
-    .reanimationcustom .gain-title {
+    .reanimationcustom .gain-title, .reanimationcustomThird .gain-title {
         display: flex;
     }
     .reanimationcustom .gain-box--yuda {
@@ -104,6 +105,22 @@
     }
     .reanimationAccessSecond .access__item-img img {
         width: 100%;
+    }
+    .reanimationcustomThird .gain-left-right-container {
+        flex-direction: column;
+    }
+    .reanimationcustomThird .gain-left {
+        padding-left: 0;
+        width: 100%;
+    }
+    .reanimationcustomThird .gain-right {
+        width: 100%;
+    }
+    .reanimationAccessThird .container {
+        max-width: unset;
+    }
+    .reanimationAccessThird .access__item {
+        width: 35%;
     }
 }
 @media (max-width: 575px) {
@@ -132,13 +149,13 @@
         padding-left: 0;
         width: 100%;
     }
-    .reanimationAccessFirst .access__item {
-        width: 50% !important;
+    .reanimationAccessFirst .access__item, .reanimationAccessThird .access__item {
+        width: 45% !important;
     }
 }
 @media (max-width: 360px) {
-    .reanimationAccessFirst .access__item {
-        width: 80% !important;
+    .reanimationAccessFirst .access__item, .reanimationAccessThird .access__item {
+        width: 75% !important;
     }
     .reanimationAccessSecond .access__item-img img {
         width: 100%;
