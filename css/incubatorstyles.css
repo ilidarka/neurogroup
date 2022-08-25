@@ -1,3 +1,9 @@
+* {
+    font-family: "Inter" solid !important;
+}
+.customSectionStyle .btn .popup-link {
+    margin-top: 60px;
+}
 .custom .gain-wrapper, .customSecond .gain-wrapper {
     display: flex;
     flex-direction: column;

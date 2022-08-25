@@ -1,3 +1,9 @@
+* {
+    font-family: "Inter";
+}
+.customSectionStyle .btn .popup-link {
+    margin-top: 60px;
+}
 .reanimationcustom .gain-wrapper {
     display: flex;
     flex-direction: column;
