@@ -59,6 +59,9 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.har  .har__column-box span {
+    width: fit-content;
+}
 @media (max-width: 1301px) {
     .second .access__box {
         flex-wrap: wrap;
