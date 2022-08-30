@@ -1,0 +1,179 @@
+.gain-section .container .gain-right .gain-box li {
+    margin-bottom: 50px;
+}
+.gain-section .container .gain-left li {
+    width: 70%;
+}
+.container .gain-right .citu-btn {
+    margin-top: 80px;
+}
+.curve-advantage-section .wb-item {
+    width: 30%;
+}
+.implantsCustom .gain-wrapper, .implantsCustomSecond .gain-wrapper {
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+}
+.implantsCustom .gain-left-right-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.implantsCustom .gain-right {
+    max-width: unset;
+    width: 50%;
+}
+.implantsCustom .gain-right .har__wrapper, .implantsCustomSecond .gain-right .har__wrapper {
+    width: 100%;
+}
+.implantsCustom .gain-right .har_columns, .implantsCustomSecond .gain-right .har_columns {
+    width: 100%;
+}
+.implantsCustom .firstColumn, .implantsCustomSecond .firstColumn {
+    width: 100%;
+}
+.implantsCustom .har__column, .implantsCustomSecond .har__column {
+    max-width: unset;
+    width: 100%;
+}
+.implantsCustom .har__column-box, .implantsCustomSecond .har__column-box {
+    display: flex;
+    flex-direction: column;
+}
+.implantsCustom .item { 
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.implantsCustom .item span:nth-child(1) {
+    width: 157px;
+}
+.implantsCustom .item span:nth-child(2) {
+    width: 210px;
+}
+.implantsCustom .tabInfoContainer {
+    display: flex;
+    flex-direction: column;
+}
+.implantsCustom .infoItem {
+    display: flex;
+    justify-content: flex-start;
+}
+.implantsCustom .infoItem span:nth-child(1) {
+    width: 100px;
+}
+.implantsCustomSecond .gain-left-right-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.implantsCustomSecond .item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.implantsCustomSecond li {
+    width: 100% !important;
+}
+@media (max-width: 1300px) {
+    .implantsCustom .gain-left-right-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .implantsCustom .gain-left {
+        max-width: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .implantsCustom .gain-right {
+        width: 80%;
+    }
+    .implantsCustom .item {
+        justify-content: space-between;
+    }
+    .styled {
+        width: 310px !important;
+    }
+}
+@media (max-width: 992px) {
+    .implantsCustomSecond .gain-left-right-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .implantsCustomSecond .gain-left {
+        max-width: unset; 
+        width: 70%;
+    }
+    .implantsCustomSecond .har_columns {
+        width: 100%;
+    }
+    .implantsCustomSecond li {
+        width: 100% !important;
+    }
+    .implantsCustomSecond .item {
+        justify-content: space-between;
+    }
+    .implantsCustom .gain-title, .implantsCustomSecond .gain-title {
+        margin: 0 auto;
+    }
+    .implantsCustomSecond .item span:nth-child(2) {
+        width: 260px;
+    }
+    .curve-advantages-title {
+        text-align: center;
+    }
+    .wb-box {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .wb-item {
+        width: 40% !important;
+    }
+}
+@media (max-width: 781px) {
+    .implantsCustom .container, .implantsCustomSecond .container {
+        max-width: unset;
+    }
+    .curve-advantage-section .wb-item {
+        width: 80% !important;
+    }
+}
+@media (max-width: 700px) {
+    .implantsCustom .gain-right {
+        width: 60%;
+        display: flex;
+    }
+    .implantsCustom .har__column-box {
+        align-items: center;
+    }
+    .implantsCustom li {
+        width: 100%;
+    }
+    .implantsCustom .item {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 660px) { 
+    .implantsCustomSecond .item {
+        flex-direction: column;
+    }
+}
+@media (max-width: 660px) { 
+    .implantsCustom .gain-right {
+        width: 90%;
+    }
+}
+@media (max-width: 450px) {
+    .implantsCustom .har__wrapper, .implantsCustomSecond .har__wrapper {
+        padding: 10px 0 10px 10px;
+    }
+    .implantsCustom .har__column-box, .implantsCustomSecond .har__column-box {
+        font-size: 14px;
+    }
+}
