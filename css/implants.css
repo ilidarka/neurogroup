@@ -61,7 +61,7 @@
     justify-content: flex-start;
 }
 .implantsCustom .infoItem span:nth-child(1) {
-    width: 100px;
+    width: 120px;
 }
 .implantsCustomSecond .gain-left-right-container {
     width: 100%;
@@ -76,6 +76,10 @@
 }
 .implantsCustomSecond li {
     width: 100% !important;
+}
+.connect-section .connect-item textarea::placeholder, .connect-section .connect-item input::placeholder {
+    font-family: "Inter";
+    color: rgb(173, 173, 173) !important;
 }
 @media (max-width: 1300px) {
     .implantsCustom .gain-left-right-container {
@@ -105,7 +109,7 @@
     }
     .implantsCustomSecond .gain-left {
         max-width: unset; 
-        width: 70%;
+        width: 75%;
     }
     .implantsCustomSecond .har_columns {
         width: 100%;
@@ -166,7 +170,7 @@
 }
 @media (max-width: 660px) { 
     .implantsCustom .gain-right {
-        width: 90%;
+        width: 95%;
     }
 }
 @media (max-width: 450px) {
