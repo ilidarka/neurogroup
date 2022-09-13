@@ -12,8 +12,10 @@
 .custom .images {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .custom .gain-left-right-container, .customSecond .gain-left-right-container {
     display: flex;
@@ -21,7 +23,16 @@
 .custom .gain-right {
     max-width: unset;
     width: 50%;
+} 
+.custom .gain-left-image{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap:wrap; 
+    justify-content:space-between;  
 }
+ .images-left {
+    width: 40%;
+ }
 .custom .gain-left {
     padding-left: 20px;
     width: 50%;
@@ -62,13 +73,36 @@
 .har  .har__column-box span {
     width: fit-content;
 }
+.item-text {
+    text-align: right;
+}
+
 @media (max-width: 1301px) {
+    /*Не готово еще*/
     .second .access__box {
         flex-wrap: wrap;
     }
     .second .access__item-img img {
         max-width: unset;
     }
+    .custom .gain-left-image{
+        display:flex; 
+        flex-direction: row;
+        flex-wrap:wrap; 
+        justify-content:space-around; 
+    }
+       .custom .images {
+        width: 100%;
+        display: flex;
+         /*justify-content: space-around;*/
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+    .img {
+        margin: 5px;
+    }
+
+
 }
 @media (max-width: 991px) {
     .custom .gain-wrapper {
@@ -93,6 +127,22 @@
         flex-direction: column;
         align-items: center;
     }
+    .custom .images {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+     .images-left {
+        width: 30%;
+    }
+    .custom .gain-left-image{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap:wrap; 
+    justify-content:space-around; 
+    }
+    
     .custom .gain-box--yuda {
         width: 100%;
         display: flex;
@@ -135,8 +185,15 @@
     .custom .gain-left {
         padding-left: 0;
     }
+     
     .custom .images {
         width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+     .images-left {
+        width: 40%;
     }
     .access .access__item-img img {
         max-width: unset;
@@ -151,6 +208,7 @@
         flex-direction: column;
     }
 }
+
 @media (max-width: 575px) {
     .custom .container {
         max-width: unset;
@@ -159,7 +217,10 @@
     .custom .images {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 40px;
+    }
+     .images-left {
+        width: 50%;
     }
     .second .access__box .access__item {
         width: 60%;
