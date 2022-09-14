@@ -405,7 +405,7 @@
 }
 
 .news-item.news-item--small-map2 {
-       width: 150px;
+       width: 130px;
     height: 80px;
 }
 .news-item_img2 {
@@ -475,7 +475,7 @@
     height: auto;
     flex-wrap: wrap;
 
-    margin-top: 150px;
+    margin-top: 190px;
 }
 
     .news-item.news-item--small-map {
