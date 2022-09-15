@@ -1,5 +1,11 @@
 
-
+.mapImageItem {
+    max-width: unset;
+    width: 990px !important;
+}
+.mapImageDiv {
+    overflow-x: scroll;
+}
 .text-map{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -147,13 +153,9 @@
 
 @media (max-width: 991px) {
     .gain-right-map {
-
     position: absolute;
-   
-    margin-left: 50px;
-    margin-bottom: 60px;
-    width: 100%
-    }
+    width: 750px;
+}
 
 
      .span1{
@@ -176,7 +178,7 @@
         margin-bottom: 100px;
     }
     .news-column-map{
-        margin-top: 400px;
+        margin-top: 490px;
     }
     .text-z-index {
         z-index: 3
@@ -199,35 +201,29 @@
 }
 
 @media (max-width: 781px) {
-    .gain-right-map {
-
+.gain-right-map {
     position: absolute;
-   margin-top: 20px;
-    margin-left: 80px;
     margin-bottom: 60px;
-    width: 100%
-    }
-
-
-     .span1{
+    width: 90%;
+    left: 30px;
+}
+.span1{
     font-size: 2.5em;
     color: #005944;
     font-weight: bold;
-    }
-
-    .span2 {
+}
+.span2 {
     font-size: 1.3em;
     color: #919191;
     margin-left: 5px;
-    }
-
-    .gain-left-map{
+}
+.gain-left-map{
     justify-content: center;
     display: flex;
-    }
-    .news-column{
-        margin-bottom: 100px;
-    }
+}
+.news-column{
+    margin-bottom: 100px;
+}
      .news-column-map{
         margin-top: 250px;
 
@@ -241,11 +237,8 @@
     .text-map{
         margin: 20px;
     }
-
-     .news-page-section .news-column-map {
-  
+.news-page-section .news-column-map {
     display: -ms-flexbox;
-   
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -255,11 +248,9 @@
     flex-direction: row;
     height: auto;
     flex-wrap: wrap;
-
-    margin-top: 300px;
+    margin-top: 480px;
 }
-
-    .news-item.news-item--small-map {
+.news-item.news-item--small-map {
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -314,15 +305,16 @@
 
 @media (max-width: 575px) {
     .gain-right-map {
-
-    position: absolute;
-   
-    margin-left: 50px;
-    margin-bottom: 60px;
-    width: 100%
+        position: absolute;
+        margin-bottom: 60px;
+        width: 96%;
+        left: 10px;
     }
 
-  
+    .mapImageItem {
+        width: 660px !important;
+    }
+
      .span1{
     font-size: 1.3em;
     color: #005944;
@@ -366,7 +358,7 @@
     height: auto;
     flex-wrap: wrap;
 
-    margin-top: 250px;
+    margin-top: 325px;
 }
 
     .news-item.news-item--small-map {
@@ -424,12 +416,9 @@
 
 @media (max-width: 360px) {
     .gain-right-map {
-
-    position: absolute;
-   
-    margin-left: 50px;
-    margin-bottom: 60px;
-    width: 100%
+        position: absolute;
+        margin-bottom: 60px;
+        width: 94%
     }
 
     .span1{
@@ -460,11 +449,8 @@
     .text-map{
         margin: 10px;
     }
-
-    .news-page-section .news-column-map {
-  
+.news-page-section .news-column-map {
     display: -ms-flexbox;
-   
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -474,11 +460,9 @@
     flex-direction: row;
     height: auto;
     flex-wrap: wrap;
-
-    margin-top: 190px;
+    margin-top: 325px;
 }
-
-    .news-item.news-item--small-map {
+.news-item.news-item--small-map {
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -530,4 +514,3 @@
     width: 40%;
 }
 }
-
