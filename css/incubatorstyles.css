@@ -60,10 +60,10 @@
     flex-wrap: wrap;
 }
 .second .access__box .access__item {
-    padding: 0 0;
+    padding: 30px 20px;
     margin-top: 50px;
     width: 30%;
-    height: fit-content;
+    height: 286px;
 }
 .modelsButtons {
     display: flex;
@@ -76,14 +76,25 @@
 .item-text {
     text-align: right;
 }
+.access__item-img {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 @media (max-width: 1301px) {
     /*Не готово еще*/
     .second .access__box {
         flex-wrap: wrap;
     }
+    .second .access__box .access__item {
+        padding: 30px 20px;
+
+    }
     .second .access__item-img img {
-        max-width: unset;
+        max-width: auto !important;
     }
     .custom .gain-left-image{
         display:flex; 
@@ -156,10 +167,6 @@
     }
     .access .access__item-img img {
         max-width: unset;
-        width: 68%;
-    }
-    .second .access__item-img img {
-        width: 100%;
     }
 }
 @media (max-width: 781px) {
@@ -185,7 +192,9 @@
     .custom .gain-left {
         padding-left: 0;
     }
-     
+    .second .container {
+        max-width: 650px;
+    }
     .custom .images {
         width: 100%;
         display: flex;
@@ -195,9 +204,11 @@
      .images-left {
         width: 40%;
     }
+    .second .access__box .access__item {
+        width: 45%;
+    }
     .access .access__item-img img {
         max-width: unset;
-        width: 110%;
     }
     .customSecond .gain-left-right-container {
         flex-direction: column;
@@ -208,7 +219,12 @@
         flex-direction: column;
     }
 }
-
+@media (max-width: 680px) {
+    .second .access__box .access__item {
+        width: 51%;
+        margin: 25px auto;
+    }
+}
 @media (max-width: 575px) {
     .custom .container {
         max-width: unset;
@@ -225,12 +241,12 @@
     .second .access__box .access__item {
         width: 60%;
     }
-    .second .access__item img {
-        width: 100%;
-    }
 }
 @media (max-width: 360px) {
     .customSectionStyle .container {
         max-width: unset;
+    }
+    .second .access__box .access__item {
+        width: 80%;
     }
 }
