@@ -1,0 +1,33 @@
+.tableButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+}
+.tableButton {
+    padding: 20px 50px !important;
+}
+.tablePopuplink {
+    display: flex;
+    justify-content: center;
+}
+.images {
+    justify-content: flex-start !important;
+    margin: 20px 0;
+}
+.dst-I_images-left {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.dstI_Image {
+    width: 100%;
+}
+.baseFunctions {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.har_columns .firstColumn, .har_columns .secondColumn {
+    flex-direction: column;
+}
