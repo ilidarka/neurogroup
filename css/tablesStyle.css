@@ -21,7 +21,19 @@
     padding: 30px 20px;
     border-radius: 10px;
 }
-.dstI_Image {
+.gain-left-right-container {
+    gap: 20px;
+}
+.secondColumnBox {
+    gap: 28px !important;
+}
+.thirdColumnBox {
+    gap: 24px !important;
+}
+.customSecond .gain-left {
+    width: 50%;
+}
+.dstI_Image, .dstII_Image {
     width: 100%;
 }
 .baseFunctions {
