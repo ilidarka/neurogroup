@@ -5,6 +5,9 @@
     justify-content: center;
     gap: 13px;
 }
+.modelsButtons {
+    flex-direction: unset !important;
+}
 .tableButton {
     padding: 20px 50px !important;
 }
@@ -61,6 +64,9 @@
 .columnNames .har__column-name {
     width: 50%;
 }
+.customSectionStyle .gain-left {
+    padding: 0 20px;
+}
 @media (max-width: 990px) {
     .dstI_container {
         flex-direction: column-reverse !important;
@@ -88,6 +94,12 @@
     .customSecond .gain-left-right-container {
         flex-direction: column-reverse !important;
     }
+    .customSecond .gain-left p {
+        margin-bottom: 30px;
+    }
+    .customSecond .gain-title {
+        align-items: flex-start !important;
+    }
 }
 @media (max-width: 500px) {
     .images {
@@ -98,5 +110,13 @@
     }
     .dst-I_images-left {
         width: 50%;
+    }
+}
+@media (max-width: 400px) {
+    .customSectionStyle .container {
+        max-width: unset;
+    }
+    .columnNames {
+        gap: 10px;
     }
 }
