@@ -67,6 +67,12 @@
 .customSectionStyle .gain-left {
     padding: 0 20px;
 }
+.custom .gain-left {
+    padding-left: unset !important;
+}
+.customSecond .gain-box--yuda {
+    margin-left: 23px;
+}
 @media (max-width: 990px) {
     .dstI_container {
         flex-direction: column-reverse !important;
