@@ -73,6 +73,9 @@
 .customSecond .gain-box--yuda {
     margin-left: 23px;
 }
+.gain-title span{
+    font-weight: 700;
+}
 @media (max-width: 990px) {
     .dstI_container {
         flex-direction: column-reverse !important;
