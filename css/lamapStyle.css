@@ -1,0 +1,80 @@
+.priceBlock a{
+    background-color: #D9E6E3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upperButtons {
+    padding: 0 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wb-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wb-item img {
+    width: 190px;
+}
+.wb-item_text {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+.customLamp .gain-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customLamp .gain-title {
+    width: 100%;
+}
+.customLamp .gain-left-right-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.customLamp .gain-left {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customLamp .wb-box img {
+    width: 100px;
+}
+.customLamp .wb-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.customLamp .wb-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.customLamp .gain-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
