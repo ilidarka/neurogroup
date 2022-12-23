@@ -12,7 +12,6 @@
     justify-content: center;
 }
 .upperButtons {
-    padding: 0 20%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -77,4 +76,109 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.lampChar .firstColumn {
+    width: 100%;
+}
+.lampChar .firstColumn span {
+    width: 40%;
+    text-align: left;
+}
+.prem .gain-left {
+    width: 100%;
+}
+.prem .box-item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.prem .wb-item {
+    width: 200px !important;
+}
+.prem .item-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.prem .wb-item_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.8;
+}
+.premText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.premText .wb-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+@media (max-width: 1300px) {
+    .customLamp .gain-left-right-container {
+        flex-direction: column-reverse;
+    }
+    .customLamp .gain-left, .customLamp .gain-right {
+        width: 100%;
+        max-width: unset;
+    }
+}
+@media (max-width: 991px) {
+    .curve-advantage-section .wb-box {
+        flex-direction: row;
+    }
+    .curve-advantage-section .wb-box .wb-item {
+        width: 40% !important;
+    }
+    .customLamp .gain-title {
+        display: block;
+    }
+    .prem .box-item {
+        width: 100%;
+    }
+}
+@media (max-width: 970px) {
+    .customLamp .gain-title {
+        display: block;
+    }
+}
+@media (max-width: 780px) {
+    .upperButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .curve-advantage-section .wb-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .curve-advantage-section .wb-box .wb-item {
+        width: 50% !important;
+    }
+}
+@media (max-width: 574px) {
+    .curve-advantage-section .wb-box .wb-item {
+        width: 80% !important;
+    }
+    .lampChar .container {
+        max-width: unset;
+        padding: 0 20px;
+    }
+    .lampChar span {
+        font-size: 14px !important;
+    }
+    .prem .item-info {
+        flex-direction: column;
+        align-items: center;
+    }
 }
