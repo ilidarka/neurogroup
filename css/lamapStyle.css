@@ -16,6 +16,12 @@
     display: flex;
     justify-content: space-between;
 }
+.gain-box span {
+    line-height: 30px;
+}
+.gain-box li {
+    margin: 20px 0;
+}
 .wb-item {
     display: flex;
     flex-direction: column;
