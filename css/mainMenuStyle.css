@@ -1,0 +1,25 @@
+.main-box {
+    background: #FFFFFF;
+    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 50px;
+}
+.main-item {
+    background: none;
+    background: #EFF5FF;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+.dropdownMenuCustom {
+    position: absolute;
+    width: max-content;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
