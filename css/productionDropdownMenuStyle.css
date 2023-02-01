@@ -35,13 +35,10 @@
     padding: 20px 10px;
 }
 .productionMenuItems {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-}
-.productionDropdownMenuItem:hover .productionMenuItems {
-    display: flex;
 }
 .productionItemWithArrow {
     display: flex !important;
