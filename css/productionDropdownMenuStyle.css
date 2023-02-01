@@ -117,7 +117,7 @@
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
@@ -139,4 +139,47 @@
     align-items: center;
     gap: 10px;
     color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.innerUpper span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 89, 68, 0.8);
+}
+.innerBack {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.innerMenuItem .innerMenuItems {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+}
+.innerMenuItem:hover .innerMenuItems {
+    display: flex;
+}
+.innerMenuItem .innerMenuItems span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.innerChildItem {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.itemName:hover .innerChildItem {
+    display: flex;
+}
+.openInnerMenu {
+    display: flex;
+}
+.innerMenuItems .productionItemWithArrow {
+    align-items: center !important;
 }

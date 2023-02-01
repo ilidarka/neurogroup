@@ -31,21 +31,14 @@ $(document).ready(function(){
 	});
 
 	/* открытие подпунктов меню */
-	$('.menu-box_main').on('click', function(){
-		$(this).next().toggleClass('openInner');
-		$(this).toggleClass(' main-color');
-	})
-	$('.menu-box_main2').on('click', function(){
-		$(this).children('a').toggleClass(' main-color');
-		$(this).children('.menu-box_inner2').toggleClass('openInner');
-	})
-
-
-	$(".popup-link").magnificPopup({
-
+	$('.innerBack').on('click', function(){
+		$(".productionInnerMenu").toggleClass('openInnerMenu');
 	});
-
-
+	$(".productionMenuHoverItem").on("click", function() {
+		if($(window).width() <= 991) {
+			$(".productionInnerMenu").toggleClass('openInnerMenu');
+		}
+	});
 
 	/* работа табов */
 	jQuery('.tabs-wrapper').each(function() {
