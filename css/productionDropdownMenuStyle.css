@@ -1,0 +1,99 @@
+.menu-box_main {
+    position: relative;
+}
+.productionDropdownMenu {
+    width: 84vw;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    z-index: 10;
+    left: -26vw;
+    top: 35px;
+}
+.productionDropdownMenuUpper {
+    display: flex;
+    justify-content: center;
+}
+.productionDropdownMenuItem .productionMenuMainImage {
+    width: 170px;
+    height: 150px;
+}
+.productionDropdownMenuItem {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 20px 10px;
+}
+.productionMenuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.productionItemWithArrow {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: unset !important;
+    height: unset !important;
+    gap: 10px;
+}
+.productionMenuItems a {
+    align-items: flex-start !important;
+}
+.itemHeader {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 10px;
+    height: unset !important;
+}
+.productionChildItem {
+    display: none;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+.productionDropdownMenuUpper .itemName:hover .productionChildItem {
+    display: flex;
+}
+.productionDropdownMenuBottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+.bottomMenuChilds {
+    display: none;
+    justify-content: center;
+    gap: 10px;
+}
+.bottomDropdownMenu {
+    display: flex;
+    align-items: center;
+}
+.productionDropdownMenuBottom .bottomDropdownMenu:hover .bottomMenuChilds {
+    display: flex !important;
+}
+.bottomMenuChilds span {
+    width: max-content;
+}
+.productionDropdownMenuBottom .itemHeader {
+    width: max-content !important;
+}
+.productionDropdownMenuItemChild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.productionDropdownMenuItem .itemHeader:hover .productionDropdownMenuItemChild {
+    display: flex;
+}

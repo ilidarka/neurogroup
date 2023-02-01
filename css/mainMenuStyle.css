@@ -1,3 +1,6 @@
+.main-section {
+    overflow: unset;
+}
 .main-box {
     background: #FFFFFF;
     box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
@@ -54,4 +57,7 @@
 }
 .itemWithArrow:hover .childList {
     display: flex;
+}
+.dropdownMenuCustom a {
+    color: #000;
 }
