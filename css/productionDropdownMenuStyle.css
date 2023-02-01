@@ -104,3 +104,39 @@
 .productionDropdownMenuItem .itemHeader:hover .productionDropdownMenuItemChild {
     display: flex;
 }
+@media (max-width: 991px) {
+    .productionMenuHoverItem:hover .productionDropdownMenu {
+        display: none !important;
+    }
+}
+
+.productionInnerMenu {
+    padding: 20px;
+    background: url(../img/menu-uzor.svg) no-repeat bottom right, #E0EAE7;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.innerUpper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.innerMenuItems {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.innerMenuItems a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+}
