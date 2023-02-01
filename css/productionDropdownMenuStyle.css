@@ -3,6 +3,9 @@
 }
 .productionDropdownMenu {
     width: 84vw;
+    display: none;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     background-color: #fff;
     box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
@@ -10,6 +13,9 @@
     z-index: 10;
     left: -26vw;
     top: 35px;
+}
+.productionMenuHoverItem:hover .productionDropdownMenu {
+    display: flex !important;
 }
 .productionDropdownMenuUpper {
     display: flex;
@@ -29,10 +35,13 @@
     padding: 20px 10px;
 }
 .productionMenuItems {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+}
+.productionDropdownMenuItem:hover .productionMenuItems {
+    display: flex;
 }
 .productionItemWithArrow {
     display: flex !important;
@@ -66,6 +75,7 @@
     display: flex;
 }
 .productionDropdownMenuBottom {
+    width: 100%;
     border-top: 1px solid rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
