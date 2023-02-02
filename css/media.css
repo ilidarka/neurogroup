@@ -391,7 +391,7 @@
     width: 100vw;
     height: 100vh;
     z-index: 9999;
-    background: url(../img/menu-uzor.svg) no-repeat bottom right, #E0EAE7;
+    background: url(../img/menu-uzor.svg) no-repeat bottom right, #EFF5FF;
     right: -200%;
     overflow-y: scroll;
     padding-bottom: 40px;

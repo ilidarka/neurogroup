@@ -473,7 +473,7 @@ main {
 }
 
 .main-title h1 {
-	font-size: calc(50px + 17 * ((100vw - 320px) / 1600));
+	font-size: calc(43px + 17 * ((100vw - 320px) / 1600));
 	color: #00231B;
 }
 
