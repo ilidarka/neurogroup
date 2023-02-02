@@ -469,7 +469,7 @@ main {
 
 .main-title {
 	margin-bottom: calc(15px + 10 * ((100vw - 320px) / 1600));
-	text-align: center;
+	text-align: left;
 }
 
 .main-title h1 {
@@ -480,7 +480,7 @@ main {
 .main-subtitle {
 	font-size: calc(15px + 3 * ((100vw - 320px) / 1600));
 	margin-bottom: calc(50px + 100 * ((100vw - 320px) / 1600));
-	text-align: center;
+	text-align: left;
 }
 
 .main-btn {

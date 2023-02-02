@@ -78,3 +78,6 @@
     background: unset;
     background: linear-gradient(to bottom, #EFF5FF 65%, #F6F7F9 35%);
 }
+.dropdownMenuCustom span {
+    padding-bottom: 5px;
+}
