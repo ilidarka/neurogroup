@@ -473,13 +473,13 @@ main {
 }
 
 .main-title h1 {
-	font-size: calc(26px + 17 * ((100vw - 320px) / 1600));
+	font-size: calc(50px + 17 * ((100vw - 320px) / 1600));
 	color: #00231B;
 }
 
 .main-subtitle {
-	font-size: calc(15px + 3 * ((100vw - 320px) / 1600));
-	margin-bottom: calc(50px + 100 * ((100vw - 320px) / 1600));
+	font-size: calc(20px + 3 * ((100vw - 320px) / 1600));
+	margin-bottom: calc(10px + 100 * ((100vw - 320px) / 1600));
 	text-align: left;
 }
 
