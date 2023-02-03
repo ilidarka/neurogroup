@@ -154,6 +154,18 @@
     align-items: center;
     gap: 5px;
 }
+.innerMenuItem {
+    width: 100%;
+}
+.innerMenuItemHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.innerMenuItemHeader .innerHeaderArrow {
+    transform: rotate(90deg);
+}
 .innerMenuItem .innerMenuItems {
     margin-top: 10px;
     margin-left: 10px;
