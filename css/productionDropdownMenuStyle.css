@@ -130,8 +130,8 @@
 .innerMenuItems {
     width: 100%;
     display: flex;
+    align-items: start;
     flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
 }
 .innerMenuItems a {
@@ -155,7 +155,7 @@
     gap: 5px;
 }
 .innerMenuItem {
-    width: 100%;
+    width: 50%;
 }
 .innerMenuItemHeader {
     width: 100%;

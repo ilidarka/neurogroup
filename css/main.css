@@ -144,11 +144,14 @@ li:before {
 	min-width: 7px;
 	min-height: 7px;
 	background: #00D9A4;
-	margin-right: calc(5px + 5 * ((100vw - 320px) / 1600));
+	margin-right: 22px;
 	display: inline-block;
 	border-radius: 60px;
 	margin-top: 5px;
+	z-index: 2;
 }
+
+
 
 .btn a,
 .btn button {
@@ -1078,10 +1081,10 @@ footer {
 }
 
 .footer-sub_gas {
-	text-align: right;
+	text-align: start;
 	max-width: 180px;
 	display: block;
-	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer-sub_gas span {
@@ -1580,15 +1583,15 @@ section.citu-geader-section.geader-section {
 /* GEADER-SECTION */
 section.geader-section {
 	padding-bottom: 0;
-	background: #E0EAE7;
-	padding-bottom: calc(30px + 60 * ((100vw - 320px) / 1600));
+	background: #EFF5FF;
+	padding-bottom: 35px;
 	position: relative;
 	z-index: 999;
 }
 
 .geader-uzor {
 	position: absolute;
-	right: 50%;
+	right: 20%;
 	margin-right: -550px;
 	top: 0;
 }
@@ -3846,4 +3849,25 @@ section.geader-section {
 	font-weight: 500;
 	font-size: 20px;
 	margin-bottom: 12px;
+}
+/*EG css*/
+.title {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 75px;
+	color: #00231B;
+}
+
+
+
+.item {
+	background: #fff;
+	border-radius: 20px;
+	padding: 10px 20px 10px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 35px;
 }
