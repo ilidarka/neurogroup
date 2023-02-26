@@ -127,7 +127,7 @@ body {
 }
 
 section {
-	padding-bottom: calc(75px + 45 * ((100vw - 320px) / 1600));
+	padding-bottom: 70px;
 }
 
 li {
